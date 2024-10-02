@@ -1,0 +1,42 @@
+{
+	"name": "ata.compiler",
+	"version": "1.0.2",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"compile": "./App/Compile.js"
+	},
+	"scripts": {
+		"test": "node ./App/Compile.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Mustafaozver/ata.compiler.git"
+	},
+	"keywords": [
+		"compiler",
+		"ata",
+		"atajs",
+		"typescript",
+		"sass",
+		"javascript",
+		"css",
+		"js",
+		"style",
+		"ejs"
+	],
+	"author": "Mustafa ÖZVER",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/Mustafaozver/ata.compiler/issues"
+	},
+	"homepage": "https://github.com/Mustafaozver/ata.compiler#readme",
+	"dependencies": {
+		"ata.compiler": "^1.0.2",
+		"ata.js": "^9.0.5",
+		"ejs": "^3.1.10",
+		"sass": "^1.77.4",
+		"terser": "^5.34.1",
+		"typescript": "^5.6.2"
+	}
+}

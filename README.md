@@ -1,1 +1,1 @@
-# ata.compiler
+/home/mustafa/.0/my-md-notes-repo/BUBİLGİSAYARDA/ATA_COMPILER_README.md

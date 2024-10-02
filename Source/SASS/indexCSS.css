@@ -1,0 +1,9 @@
+body {
+	background-color: blue;
+}
+
+<%- include("./SRC/Body.css"); %>;
+
+.i<% __append(time); %>{
+	color:blue;
+}
