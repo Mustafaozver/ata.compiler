@@ -23,7 +23,7 @@
 			const fromFilePath = ATA.Path.join(fromPath, filename);
 			if(ATA.FS.statSync(fromFilePath).isDirectory() || !(new RegExp(regex)).test(filename))return filename;
 			const fileName = (new RegExp(regex)).exec(filename).groups.name;
-			const toFilePath = ATA.Path.join(toPath, fileName + ".HTML");
+			const toFilePath = ATA.Path.join(toPath, fileName + ".html"); // HTML
 			console.log("Compiling EJS File " + fileName);
 			return new Promise((resolve)=>{
 				CompileEJSFile(fromFilePath, {
@@ -52,7 +52,7 @@
 			const fromFilePath = ATA.Path.join(fromPath, filename);
 			if(ATA.FS.statSync(fromFilePath).isDirectory() || !(new RegExp(regex)).test(filename))return filename;
 			const fileName = (new RegExp(regex)).exec(filename).groups.name;
-			const toFilePath = ATA.Path.join(toPath, fileName + ".JS");
+			const toFilePath = ATA.Path.join(toPath, fileName + ".js"); // JS
 			console.log("Compiling JS/TS File " + fileName);
 			return new Promise((resolve)=>{
 				CompileTSFile(fromFilePath, {
@@ -81,7 +81,7 @@
 			const fromFilePath = ATA.Path.join(fromPath, filename);
 			if(ATA.FS.statSync(fromFilePath).isDirectory() || !(new RegExp(regex)).test(filename))return filename;
 			const fileName = (new RegExp(regex)).exec(filename).groups.name;
-			const toFilePath = ATA.Path.join(toPath, fileName + ".CSS");
+			const toFilePath = ATA.Path.join(toPath, fileName + ".css"); // CSS
 			console.log("Compiling CSS/SASS File " + fileName);
 			return new Promise((resolve)=>{
 				CompileSASSFile(fromFilePath, {

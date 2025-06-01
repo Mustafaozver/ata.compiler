@@ -2,5 +2,8 @@ node_modules
 package-lock.json
 Tmp
 Interface/HTML/*.HTML
+Interface/HTML/*.html
 Interface/JS/*.JS
+Interface/JS/*.js
 Interface/CSS/*.CSS
+Interface/CSS/*.css

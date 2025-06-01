@@ -53,8 +53,8 @@ module.exports = ((ATA)=>{
 	};
 	
 	const CompileTS = async(content)=>{
-		const _pTS = !true;
-		const _pTR = !true;
+		const _pTS = true;
+		const _pTR = true;
 		
 		if(_pTS){
 			try{

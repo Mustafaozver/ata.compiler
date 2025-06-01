@@ -7,7 +7,7 @@
 		"compile": "./App/Compile.js"
 	},
 	"scripts": {
-		"test": "node ./App/Compile.js"
+		"test": "node ./App/Compile.js && nodemon ./App/Serve.js"
 	},
 	"repository": {
 		"type": "git",
@@ -33,10 +33,12 @@
 	"homepage": "https://github.com/Mustafaozver/ata.compiler#readme",
 	"dependencies": {
 		"ata.compiler": "^1.0.2",
-		"ata.js": "^9.0.5",
-		"ejs": "^3.1.10",
-		"sass": "^1.77.4",
-		"terser": "^5.34.1",
-		"typescript": "^5.6.2"
+		"ata.js": "9.0.5",
+		"ejs": "3.1.10",
+		"express": "^5.1.0",
+		"nodemon": "^3.1.10",
+		"sass": "1.77.4",
+		"terser": "5.34.1",
+		"typescript": "5.6.2"
 	}
 }
